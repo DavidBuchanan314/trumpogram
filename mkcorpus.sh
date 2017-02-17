@@ -20,7 +20,8 @@ if [ ! -f ./tweet_dumper.py ]; then # download and patch tweet dumper if it does
 	sed -i "s/access_secret = \"/access_secret = \"$twitter_access_secret/" tweet_dumper.py
 	
 	# Dirty hack to modify output format:
-	truncate -s `head -n48 tweet_dumper.py | wc -c` tweet_dumper.py
+	head -n48 tweet_dumper.py > tmp.py
+	mv tmp.py tweet_dumper.py
 	echo "
 	open('corpus.txt', 'w').write('\n'.join(tweet.text.encode('utf-8') for tweet in alltweets))
 
