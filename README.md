@@ -7,7 +7,7 @@ The World, according to Donald Trump
 ## About
 There isn't much to this project, just plugging a few existing tools together.
 
-## Corpus:
+## Corpus
 The corpus for this project was obtained from multiple sources (I might add more):
 
  - 2016 Campaign speeches, from [ryanmcdermott/trump-speeches](https://github.com/ryanmcdermott/trump-speeches)
