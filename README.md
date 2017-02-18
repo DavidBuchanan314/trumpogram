@@ -1,7 +1,7 @@
 # trumpogram
-The World, according to Donald Trump.
+The World, according to Donald Trump. Each country's size is approximately proportional to the number of times that it was mentioned in Trump's tweets and campaign speeches.
 
-## Output
+## Final Output
 \[TODO ;)\]
 
 ## About
