@@ -2,7 +2,7 @@
 The World, according to Donald Trump. Each country's size is approximately proportional to the number of times that it was mentioned in Trump's tweets and campaign speeches.
 
 ## Final Output
-\[TODO ;)\]
+![Output Map Image](https://raw.githubusercontent.com/DavidBuchanan314/trumpogram/master/output.png)
 
 ## About
 
