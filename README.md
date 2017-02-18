@@ -15,6 +15,8 @@ I used `spacy` to output a list of GPEs and NORPs (Geo-Political Entities, Natio
 The raw output can be found in `places.csv`. Since this data is somewhat messy and unpredictable, I processed it manually in a spreadsheet, `processed.ods`, before combining it with the geographical data (see below).
 Locations with fewer than 3 mentions were ignored entirely. I might fix this at some point, but I don't think it will have much impact on the final map.
 
+Note: Mentions of individual US states are not included in the US total. Otherwise it would probably be way too big...
+
 ## Corpus
 The corpus for this project was obtained from multiple sources (I might add more):
 
