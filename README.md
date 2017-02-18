@@ -2,7 +2,7 @@
 The World, according to Donald Trump.
 
 ## Output
-\[TODO ;)\]
+![Output Map Image](https://raw.githubusercontent.com/DavidBuchanan314/trumpogram/master/output.png)
 
 ## About
 
