@@ -63,7 +63,3 @@ for ent in doc.ents:
 
 for total in totals:
 	print(total)
-#		rankings[ent.text] = rankings.get(ent.text, 0) + 1#
-#
-#for place in sorted(rankings.items(), key=lambda item: item[1], reverse=True):
-#	print("\"{}\", {}".format(place[0], place[1]))
