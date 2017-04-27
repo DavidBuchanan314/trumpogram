@@ -12,8 +12,8 @@ There isn't much to this project, just plugging a few existing tools together.
 
 The identification of place names is performed using the `spacy` python library, so any issues in this area aren't my problem :P.
 I used `spacy` to output a list of GPEs and NORPs (Geo-Political Entities, Nationalities Or Religious/Political Groups).
-The raw output can be found in `places.csv`. Since this data is somewhat messy and unpredictable, I processed it manually in a spreadsheet, `processed.ods`, before combining it with the geographical data (see below).
-Locations with fewer than 3 mentions were ignored entirely. I might fix this at some point, but I don't think it will have much impact on the final map.
+The script then resolves "synonyms", and generates a column of quantities, corresponding to the
+countries in the geographical data.
 
 Note: Mentions of individual US states are not included in the US total. Otherwise it would probably be way too big...
 
